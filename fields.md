@@ -23,3 +23,17 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| Yes                                                                                                                                                                                                                  	|
 | Repeatable            	| No                                                                                                                                                                                                                   	|
 | Data Type             	| Text             
+
+| Local Field Name      	| Creator                                                                                                                                                                                                               	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:creator                                                                                                                                                                                                       	|
+| Explanation           	| Who is responsible for the creation of the original work?  If a manuscript document, who wrote it? If a photograph, who took the picture?  If an oral history, who is the subject (the interviewee)?  And so on.  We enter this in the manner traditionally used in cataloging records: last name first, and we check the Library of Congress name authority file, a controlled vocabulary of names of people, and use the form found there, if available.  One difference from MARC cataloging is that multiple authors of a work can be recorded in this field.                      	|
+| Examples              	| (Author of a letter) Morgan, John (John Hamilton), 1842-1894 <br>
+(Both authors in a set of letters exchanged between two people) Whitaker, John Mills, 1863-1960; Taylor, Ida Taylor Whitaker, 1887-1980 <br>
+(Person interviewed) Engen, Alan K.<br>
+(Photographer) Kelly, Charles, 1889-1971 </br>
+(Producers of a video)  Juarez, Maricruz; Fuwell, Judy	|
+| Controlled Vocabulary 	| Use LCNAF when appropriate 	|
+| Required              	| Mandatory when applicable                                                                                                                                                                                                                 	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text             
