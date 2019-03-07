@@ -19,11 +19,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Dublin Core Mapping   	| dcterms:description                                                                                                                                                                                                        	|
 | Explanation           	| We can provide more details here that tell a user various information about the resource, from contents to the nature of the original work that was digitized.                      	|
 | Examples              	| (Oral history) Transcript (59 pages) of interview by Winnifred Margetts with Wanda Clayton Thomas, retired Communications and Theater professor at the University of Utah, on March 6, 1985. This interview is no. 64 in the Everett L. Cooley Oral History Project, and tape nos. 255 and 256
-
-(Letter in a manuscript collection) Scan of three letters to John Morgan: [1] Letter dated 19 July 1878 at Salt Lake City, Utah, from John Taylor to John Morgan at Rome, Georgia; [2] Letter dated 12 December 1877 at Salt Lake City, Utah, from Wilford Woodruff to John Morgan at Manassa, Colorado; [3] Letter (undated) addressed to “Elder Morgan,” signed KKK, conveying a threat if he didn’t leave the area
-
+(Letter in a manuscript collection) 
 Letter dated 8 November 1996 from Alf M. Engen to the Board of Directors of the Alf Engen Ski Museum Foundation, regarding the progress toward choosing a site for the museum and thanking them for the decision to name it in his honor
-
 (Photograph) Photo shows Chimney Rock, located north of Utah Highway 24 on the west side Capitol Reef National Park, Utah | 
 | Controlled Vocabulary 	| No                                                                                                                                                                                                                   	|
 | Required              	| Yes                                                                                                                                                                                                                  	|
