@@ -54,3 +54,5 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| No                                                                                                                                                                                                                 	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text      | 
+| SIMP field            	| contributor_t      | 
+
