@@ -53,4 +53,4 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Controlled Vocabulary 	| Use LCNAF when applicable	|
 | Required              	| No                                                                                                                                                                                                                 	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
-| Data Type             	| Text       
+| Data Type             	| Text      | 
