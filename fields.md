@@ -38,9 +38,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 
 
 | Local Field Name      	| **Collection Name and Number**                                                                                                                                                                                               
+|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-
----------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| ???? might really be none    |
 | Explanation           	|   Used for collection name and number to reflect the physical location of a digitized resource. This is especially useful to identify distinct sections of a larger collection, such as individual collections in the Multimedia Photo Archives.                  	|
 | Examples              	| P0100 Charles Kelly Photograph Collection <br> P0413 Alan K. Engen Photograph Collection	|
