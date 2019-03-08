@@ -46,29 +46,23 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Repeatable            	| No                                                                                                                                                                                                                   	|
 | Data Type             	| Text       
 
-| Local Field Name      	| **Contributor**                                                                                                                                                                                                               	|
+
+| Local Field Name      	| **Contributor**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:contributor |       |                                                                      |SIMP field            	| contributor_t      |                                                                               
-| Explanation           	| Other people or corporate bodies that play some important role in the resource's creation.  Again, we use the officially established form of the name, if available, or enter the name according to the same standards used in the LC authority file.                     	|
+| Dublin Core Mapping   	| dcterms:contributor   
+| SIMP field          	| contributor_t    | 
+| Explanation           	| Other people or corporate bodies that play some important role in the resource's creation.  Again, we use the officially established form of the name, if available, or enter the name according to the same standards used in the LC authority file.                      	|
 | Examples              	| **(Interviewer for an oral history)** Thompson, Gregory C. (Gregory Coyne), 1943- ; <br>
-**(Head coach for a University of Utah football training video)** Meek, Bill (William M.), 1922-1988	|
-| Controlled Vocabulary 	| Use LCNAF when applicable	|
-| Required              	| No                                                                                                                                                                                                                 	|
+**(Head coach for a University of Utah football training video)** Meek, Bill (William M.), 1922-1988 	|
+| Controlled Vocabulary 	| Use LCNAF when applicable                                                                                                                                                                                              	|
+| Required              	| NO                                                                                                                                                                                                                  	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
-| Data Type             	| Text      | 
+| Data Type             	| Text       |      
 
 
 
 
-| Local Field Name      	| **Contributor**                                                                                                                                                                                                               	|
-|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:contributor            |                                                                   | SIMP field            	| contributor_t      |                                                                               
-| Explanation           	| Other people or corporate bodies that play some important role in the resource's creation.  Again, we use the officially established form of the name, if available, or enter the name according to the same standards used in the LC authority file.                     	|
-| Examples              	| **(Interviewer for an oral history)** Thompson, Gregory C. (Gregory Coyne), 1943- ; <br>
-**(Head coach for a University of Utah football training video)** Meek, Bill (William M.), 1922-1988	|
-| Controlled Vocabulary 	| Use LCNAF when applicable	|
-| Required              	| No                                                                                                                                                                                                                 	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
-| Data Type             	| Text      | 
+
+
 
 
