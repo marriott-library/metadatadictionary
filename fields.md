@@ -61,9 +61,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field          	| date_t    | 
 | Explanation           	| When was the original resource created? Some resources are quite clear, such as a dated letter or a photo with the date stamped on it. (Exact dates take a prescribed format: yyyy-mm-dd.) Others resources require us to make an educated guess, and we enter a range of years to cover the likely time period during which it was created.          	|
 | Examples              	| **(When exact date is given e.g., January 31, 1975)** 1975-01-31 <br> **(When an estimated range of years is given e.g., 1960s or 1970s)** 1960; 1961; 1962; 1963; 1964; 1965; 1966; 1967; 1968; 1969; 1970; 1971; 1972; 1973; 1974; 1975; 1976; 1977; 1978; 1979 <br> **(When a single estimated year is given, e.g., circa 1960)** Enter a range of dates on either side of that date. For example: 1957; 1958; 1959; 1960; 1961; 1962; 1963 <br> **(A range of months)** 1940-02; 1940-03; 1940-04 |
-| Controlled Vocabulary 	| W3C Date Time Format profile of ISO 8601                                                                                                                                            	|
-| Required              	| Yes                                                                                                                                                                                                                  	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Controlled Vocabulary 	| W3C Date Time Format profile of ISO 8601    	|
+| Required              	| Yes       	|
 | Data Type             	| Date       |      
 
 
@@ -74,9 +73,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field          	| genre_t    | 
 | Explanation           	| Use this field to describe the nature of the original object (what it is and not what it is about), not the digital copy. When using the Getty Art & Architecture Thesaurus terms, leave all in lower case at it appears in the resource.                     	|
 | Examples              	| black-and-white negatives <br> color negatives<br> matchbooks<br> oral histories (literary works)<br> correspondence<br> 35mm (photographic film size)<br> tintypes (prints) 	|
-| Controlled Vocabulary 	| Use Getty Art & Architecture Thesaurus                                                                                                                                             	|
-| Required              	| No                                                                                                                                                                                                                  	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Controlled Vocabulary 	| Use Getty Art & Architecture Thesaurus          	|
+| Required              	| No         |                                                                                       
 | Data Type             	| Text       |      
 
 
@@ -86,9 +84,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field          	| file_name_t    | 
 | Explanation           	| File name of digitized resource, a unique identifier whose form varies between resources;  Sometimes it is constructed to be based on a numbering scheme in the original collection                     	|
 | Examples              	| **(Scan of John Mills Whitaker papers, section 2, box 10, folder 33)**  0002_10_33.pdf 	|
-| Controlled Vocabulary 	| No                                                                                                                                            	|
-| Required              	| Yes                                                                                                                                                                                                                 	|
-| Repeatable            	| No                                                                                                                                                                                                                   	|
+| Controlled Vocabulary 	| No          	|
+| Required              	| Yes       	|
 | Data Type             	| Text       |      
 
 
@@ -98,9 +95,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field            	| is_part_of_t    | 
 | Explanation           	|  Used for faceting and discovery for identified items that are part of a larger collection in Marriott Library Special Collections              	|
 | Examples              	| Ski Archive <br> Utah River Running Archives 	|
-| Controlled Vocabulary 	| No                                                                                                                                            	|
-| Required              	| No                                                                                                                                                                                                                	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Controlled Vocabulary 	| No               |                                                   	
+| Required              	| No                |                                                                    
 | Data Type             	| Text       |      
 
 
