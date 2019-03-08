@@ -122,6 +122,27 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text       |      
 
+| Local Field Name      	| **Relation**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:relation 
+| Solr field            	| relation_t    | 
+| Explanation           	| Used to provide larger context about a collection. For Marriott Library Special Collections, we place the URL for the Finding Aid in this field for harvesting by Archives West             	|
+| Examples              	| http://archiveswest.orbiscascade.org/ark:/80444/xv43640  	|
+| Controlled Vocabulary 	| No                                                                                                                                            	|
+| Required              	| No                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |      
+
+| Local Field Name      	| **Rights**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:rights 
+| Solr field            	| rights_t    | 
+| Explanation           	| For new collections, we use the URIs from rightsstatements.org             	|
+| Examples              	| http://rightsstatements.org/vocab/InC-EDU/1.0/ 	|
+| Controlled Vocabulary 	| https://rightsstatements.org/en/                                                        
+| Required              	| Yes                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |   
 
 | Local Field Name      	| **Spatial Coverage**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
