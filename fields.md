@@ -128,9 +128,9 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Dublin Core Mapping   	| dcterms_spatial 
 | Solr field            	| spatial_coverage_t    | 
 | Explanation           	|  If a resource is focused on an identifiable geographic place, we enter that here. We use a format that includes a hierarchy of broader regions: the location's county when applicable, state, and country. Multiple places may apply to the same resource. [Note: Some legacy collections, such as the Multimedia Archives Photos, still use the Library of Congress format.]              	|
-| Examples              	| **Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
-| Controlled Vocabulary 	| No                                                                                                                                            	|
-| Required              	| No                                                                                                                                                                                                                	|
+| Examples              	| Alta, Salt Lake County, Utah, United States<br> Glen Canyon National Recreation Area, Utah, United States<br>**(Multimedia Archives photo from a Glen Canyon river trip)** Colorado River (Colo.-Mexico); Glen Canyon (Utah and Ariz.) 	|
+| Controlled Vocabulary 	| Geonames                                                                                                                                            	|
+| Required              	| Strongly recommended                                                                                                                                                                                                           	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text       |      
 
