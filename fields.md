@@ -138,8 +138,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Dublin Core Mapping   	| dcterms:rights 
 | Solr field            	| rights_t    | 
 | Explanation           	| For new collections, we use the URIs from rightsstatements.org             	|
-| Examples              	| http://rightsstatements.org/vocab/InC-EDU/1.0/ <br>
-Note that the practice of claiming copyright on a digital image, e.g."Digital image copyright 2007, Marriott Library" reflects outdated understanding of rights for digital surrogates, and is being remediated in Marriott Library Collections.	|
+| Examples              	| http://rightsstatements.org/vocab/InC-EDU/1.0/ <br>Note that the practice of claiming copyright on a digital image, e.g."Digital image copyright 2007, Marriott Library" reflects outdated understanding of rights for digital surrogates, and is being remediated in Marriott Library Collections.	|
 | Controlled Vocabulary 	| https://rightsstatements.org/en/                                                        
 | Required              	| Yes                                                                                                                                                                                                                	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
