@@ -144,6 +144,41 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text       |   
 
+| Local Field Name      	| **Rights**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:rights 
+| Solr field            	| rights_t    | 
+| Explanation           	| For new collections, we use the URIs from rightsstatements.org             	|
+| Examples              	| http://rightsstatements.org/vocab/InC-EDU/1.0/ <br>
+Note that the practice of claiming copyright on a digital image, e.g."Digital image copyright 2007, Marriott Library" reflects outdated understanding of rights for digital surrogates, and is being remediated in Marriott Library Collections.	|
+| Controlled Vocabulary 	| https://rightsstatements.org/en/                                                        
+| Required              	| Yes                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |   
+
+| Local Field Name      	| **Rights Holder**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:rightsholder 
+| Solr field            	| rights_holder_t    | 
+| Explanation           	| Information about the holder of copyright for an item             	|
+| Examples              	| Copyright Trent Harris, 1984	|
+| Controlled Vocabulary 	| no                                                      
+| Required              	| Yes, when applicable                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |   
+
+| Local Field Name      	| **Accesss Rights (or Rights Management)**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:rights 
+| Solr field            	| access_rights_t    | 
+| Explanation           	| Additional textual rights information about an item           	|
+| Examples              	| 	|
+| Controlled Vocabulary 	| No                                                      
+| Required              	| No                                                                                                                                                                                                                	|
+
+| Data Type             	| Text       |   
+
+
 | Local Field Name      	| **Spatial Coverage**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms_spatial 
