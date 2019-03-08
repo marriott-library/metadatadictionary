@@ -98,6 +98,30 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Data Type             	| Text       |      
 
 
+| Local Field Name      	| **Is Part Of**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:ispartof  
+| Solr field            	| is_part_of_t    | 
+| Explanation           	|  Used for faceting and discovery for identified items that are part of a larger collection in Marriott Library Special Collections              	|
+| Examples              	| Ski Archive <br> Utah River Running Archives 	|
+| Controlled Vocabulary 	| No                                                                                                                                            	|
+| Required              	| No                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |      
+
+
+
+| Local Field Name      	| **Is Part Of**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:ispartof  
+| Solr field            	| is_part_of_t    | 
+| Explanation           	|  Used for faceting and discovery for identified items that are part of a larger collection in Marriott Library Special Collections              	|
+| Examples              	| Ski Archive <br> Utah River Running Archives 	|
+| Controlled Vocabulary 	| No                                                                                                                                            	|
+| Required              	| No                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |      
+
 
 
 
