@@ -174,8 +174,7 @@ Note that the practice of claiming copyright on a digital image, e.g."Digital im
 | Explanation           	| Additional textual rights information about an item           	|
 | Examples              	| 	|
 | Controlled Vocabulary 	| No                                                      
-| Required              	| No                                                                                                                                                                                                                	|
-
+| Required              	| No       	|
 | Data Type             	| Text       |   
 
 
