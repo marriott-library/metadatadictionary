@@ -107,10 +107,10 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field            	| keywords_t    | 
 | Explanation           	|  A useful field for synonyms of the subject headings or other specific phrases not in the LC subject headings. We put significant words that apply to the contents of the resource.             	|
 | Examples              	| **Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
-| Controlled Vocabulary 	| No                                                                                                                                            	|
-| Required              	| No                                                                                                                                                                                                                	|
+| Controlled Vocabulary 	| No           	|
+| Required              	| No              	|
+| Data Type             	| Text       |   
 
-| Data Type             	| Text       |      
 
 | Local Field Name      	| **Relation**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
@@ -118,10 +118,10 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field            	| relation_t    | 
 | Explanation           	| Used to provide larger context about a collection. For Marriott Library Special Collections, we place the URL for the Finding Aid in this field for harvesting by Archives West             	|
 | Examples              	| http://archiveswest.orbiscascade.org/ark:/80444/xv43640  	|
-| Controlled Vocabulary 	| No                                                                                                                                            	|
-| Required              	| No                                                                                                                                                                                                                	|
-
+| Controlled Vocabulary 	| No               	|
+| Required              	| No        	|
 | Data Type             	| Text       |      
+
 
 | Local Field Name      	| **Rights**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
