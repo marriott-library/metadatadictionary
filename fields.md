@@ -86,6 +86,24 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Data Type             	| Text       |      
 
 
+| Local Field Name      	| **File Name**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| none   
+| Solr field          	| file_name_t    | 
+| Explanation           	| File name of digitized resource, a unique identifier whose form varies between resources;  Sometimes it is constructed to be based on a numbering scheme in the original collection                     	|
+| Examples              	| **(Scan of John Mills Whitaker papers, section 2, box 10, folder 33)**  0002_10_33.pdf 	|
+| Controlled Vocabulary 	| No                                                                                                                                            	|
+| Required              	| Yes                                                                                                                                                                                                                 	|
+| Repeatable            	| No                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |      
+
+
+
+
+
+
+
+
 
 
 
