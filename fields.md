@@ -38,7 +38,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 
 | Local Field Name      	| **Collection Name and Number**                                                                                                                                                                                                               	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:source ???? (anna thinks it might be none)  |                                           |SIMP Field | collection_name_and_number_t                                                          	|
+| Dublin Core Mapping   	| dcterms:source ???? (anna thinks it might be none)  |                                           |SIMP Field | collection_name_and_number_t      	|
 | Explanation           	| Used for collection name and number to reflect the physical location of a digitized resource. This is especially useful to identify distinct sections of a larger collection, such as individual collections in the Multimedia Photo Archives.                     	|
 | Examples              	| P0100 Charles Kelly Photograph Collection <br> P0413 Alan K. Engen Photograph Collection	|
 | Controlled Vocabulary 	| No 	|
@@ -48,7 +48,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 
 | Local Field Name      	| **Contributor**                                                                                                                                                                                                               	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:contributor |                                                                             | SIMP field            	| contributor_t      |                                                                               
+| Dublin Core Mapping   	| dcterms:contributor |                                                                             |SIMP field            	| contributor_t      |                                                                               
 | Explanation           	| Other people or corporate bodies that play some important role in the resource's creation.  Again, we use the officially established form of the name, if available, or enter the name according to the same standards used in the LC authority file.                     	|
 | Examples              	| **(Interviewer for an oral history)** Thompson, Gregory C. (Gregory Coyne), 1943- ; <br>
 **(Head coach for a University of Utah football training video)** Meek, Bill (William M.), 1922-1988	|
@@ -62,7 +62,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 
 | Local Field Name      	| **Contributor**                                                                                                                                                                                                               	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:contributor                                                                               | SIMP field            	| contributor_t      |                                                                                                                        	
+| Dublin Core Mapping   	| dcterms:contributor                                                                               | SIMP field            	| contributor_t      |                                                                               
 | Explanation           	| Other people or corporate bodies that play some important role in the resource's creation.  Again, we use the officially established form of the name, if available, or enter the name according to the same standards used in the LC authority file.                     	|
 | Examples              	| **(Interviewer for an oral history)** Thompson, Gregory C. (Gregory Coyne), 1943- ; <br>
 **(Head coach for a University of Utah football training video)** Meek, Bill (William M.), 1922-1988	|
