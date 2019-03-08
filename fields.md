@@ -58,12 +58,21 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Examples              	| **(Interviewer for an oral history)** Thompson, Gregory C. (Gregory Coyne), 1943- ; <br>
 **(Head coach for a University of Utah football training video)** Meek, Bill (William M.), 1922-1988 	|
 | Controlled Vocabulary 	| Use LCNAF when applicable                                                                                                                                                                                              	|
-| Required              	| NO                                                                                                                                                                                                                  	|
+| Required              	| No                                                                                                                                                                                                                  	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text       |      
 
 
-
+| Local Field Name      	| **Genre**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:medium   
+| Solr field          	| genre_t    | 
+| Explanation           	| Use this field to describe the nature of the original object (what it is and not what it is about), not the digital copy. When using the Getty Art & Architecture Thesaurus terms, leave all in lower case at it appears in the resource.                     	|
+| Examples              	| black-and-white negatives <br> color negatives<br> matchbooks<br> oral histories (literary works)<br> correspondence<br> 35mm (photographic film size)<br> tintypes (prints) 	|
+| Controlled Vocabulary 	| Use Getty Art & Architecture Thesaurus                                                                                                                                             	|
+| Required              	| No                                                                                                                                                                                                                  	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |      
 
 
 
