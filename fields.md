@@ -157,7 +157,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 
 | Local Field Name      	| **Spatial Coverage**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms_spatial 
+| Dublin Core Mapping   	| dcterms:spatial 
 | Solr field            	| spatial_coverage_t    | 
 | Explanation           	|  If a resource is focused on an identifiable geographic place, we enter that here. We use a format that includes a hierarchy of broader regions: the location's county when applicable, state, and country. Multiple places may apply to the same resource. [Note: Some legacy collections, such as the Multimedia Archives Photos, still use the Library of Congress format.]              	|
 | Examples              	| Alta, Salt Lake County, Utah, United States<br> Glen Canyon National Recreation Area, Utah, United States<br>**(Multimedia Archives photo from a Glen Canyon river trip)** Colorado River (Colo.-Mexico); Glen Canyon (Utah and Ariz.) 	|
@@ -165,6 +165,16 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| Strongly recommended                                                                                                                                                                                                           	|
 | Data Type             	| Text       |      
 
+
+| Local Field Name      	| **Source**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms_spatial 
+| Solr field            	| source_t    | 
+| Explanation           	|  Information to help locate the original item that was the basis of the digital scan, such as a call number or local identifier.      	|
+| Examples              	| **(Original call number for a scanned rare book, Thomas Paine's Common Sense)**  E211 .P124  <br> **(Photo number from the Multimedia Photo Archives)** P0013n10_115_2282 	|
+| Controlled Vocabulary 	| No                                                                                                                                           	|
+| Required              	| No                                                                                                                                                                                                          	|
+| Data Type             	| Text       |      
 
 
 
