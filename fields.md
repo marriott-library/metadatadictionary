@@ -109,7 +109,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Examples              	| **Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
 | Controlled Vocabulary 	| No                                                                                                                                            	|
 | Required              	| No                                                                                                                                                                                                                	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+
 | Data Type             	| Text       |      
 
 | Local Field Name      	| **Relation**                                                                                                                                                                                                                	|
@@ -120,7 +120,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Examples              	| http://archiveswest.orbiscascade.org/ark:/80444/xv43640  	|
 | Controlled Vocabulary 	| No                                                                                                                                            	|
 | Required              	| No                                                                                                                                                                                                                	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+
 | Data Type             	| Text       |      
 
 | Local Field Name      	| **Rights**                                                                                                                                                                                                                	|
@@ -130,10 +130,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Explanation           	| For new collections, we use the URIs from rightsstatements.org             	|
 | Examples              	| http://rightsstatements.org/vocab/InC-EDU/1.0/ <br>Note that the practice of claiming copyright on a digital image, e.g."Digital image copyright 2007, Marriott Library" reflects outdated understanding of rights for digital surrogates, and is being remediated in Marriott Library Collections.	|
 | Controlled Vocabulary 	| https://rightsstatements.org/en/                                                        
-| Required              	| Yes                                                                                                                                                                                                                	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Required              	| Yes                                                                                                                                                                                                              	|
 | Data Type             	| Text       |   
-
 | Local Field Name      	| **Rights Holder**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:rightsholder 
@@ -141,8 +139,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Explanation           	| Information about the holder of copyright for an item             	|
 | Examples              	| Copyright Trent Harris, 1984	|
 | Controlled Vocabulary 	| no                                                      
-| Required              	| Yes, when applicable                                                                                                                                                                                                                	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Required              	| Yes, when applicable                                                                             |
 | Data Type             	| Text       |   
 
 | Local Field Name      	| **Accesss Rights (or Rights Management)**                                                                                                                                                                                                                	|
@@ -164,7 +161,6 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Examples              	| Alta, Salt Lake County, Utah, United States<br> Glen Canyon National Recreation Area, Utah, United States<br>**(Multimedia Archives photo from a Glen Canyon river trip)** Colorado River (Colo.-Mexico); Glen Canyon (Utah and Ariz.) 	|
 | Controlled Vocabulary 	| Geonames                                                                                                                                            	|
 | Required              	| Strongly recommended                                                                                                                                                                                                           	|
-| Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text       |      
 
 
