@@ -132,7 +132,9 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Controlled Vocabulary 	| https://rightsstatements.org/en/                                                        
 | Required              	| Yes                                                                                                                                                                                                              	|
 | Data Type             	| Text       |   
-| Local Field Name      	| **Rights Holder**                                                                                                                                                                                                                	|
+
+
+| Local Field Name      	| **Rights Holder**                                                                                                                                                                                                               
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:rightsholder 
 | Solr field            	| rights_holder_t    | 
