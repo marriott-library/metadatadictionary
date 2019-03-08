@@ -111,18 +111,28 @@ General metadata fields present in our digital library. Indivdual collections ma
 
 
 
-| Local Field Name      	| **Is Part Of**                                                                                                                                                                                                                	|
+| Local Field Name      	| **Keywords**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:ispartof  
-| Solr field            	| is_part_of_t    | 
-| Explanation           	|  Used for faceting and discovery for identified items that are part of a larger collection in Marriott Library Special Collections              	|
-| Examples              	| Ski Archive <br> Utah River Running Archives 	|
+| Dublin Core Mapping   	| none 
+| Solr field            	| keywords_t    | 
+| Explanation           	|  A useful field for synonyms of the subject headings or other specific phrases not in the LC subject headings. We put significant words that apply to the contents of the resource.             	|
+| Examples              	| **Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
 | Controlled Vocabulary 	| No                                                                                                                                            	|
 | Required              	| No                                                                                                                                                                                                                	|
 | Repeatable            	| Yes                                                                                                                                                                                                                   	|
 | Data Type             	| Text       |      
 
 
+| Local Field Name      	| **Spatial Coverage**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms_spatial 
+| Solr field            	| spatial_coverage_t    | 
+| Explanation           	|  If a resource is focused on an identifiable geographic place, we enter that here. We use a format that includes a hierarchy of broader regions: the location's county when applicable, state, and country. Multiple places may apply to the same resource. [Note: Some legacy collections, such as the Multimedia Archives Photos, still use the Library of Congress format.]              	|
+| Examples              	| **Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
+| Controlled Vocabulary 	| No                                                                                                                                            	|
+| Required              	| No                                                                                                                                                                                                                	|
+| Repeatable            	| Yes                                                                                                                                                                                                                   	|
+| Data Type             	| Text       |      
 
 
 
