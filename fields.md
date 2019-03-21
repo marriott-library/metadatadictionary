@@ -65,6 +65,16 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| Yes       	|
 | Data Type             	| Date       |      
 
+| Local Field Name      	| **format**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms:format   
+| Solr field          	| format_t    | 
+| Explanation           	| File format for the digital item. In the SIMP tool, this field is automatically extracted.  |
+| Examples              	| application/pdf <br> image/jp2 <br> audio/mp4 <br>	|
+| Controlled Vocabulary 	|  [Internet Media Type, IMT Scheme](http://www.iana.org/assignments/media-types/)          	|
+| Required              	| Yes         |                                                                                       
+| Data Type             	| Text       |      
+
 
 
 | Local Field Name      	| **Genre**                                                                                                                                                                                                                	|
@@ -73,7 +83,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr field          	| genre_t    | 
 | Explanation           	| Use this field to describe the nature of the original object (what it is and not what it is about), not the digital copy. When using the Getty Art & Architecture Thesaurus terms, leave all in lower case at it appears in the resource.                     	|
 | Examples              	| black-and-white negatives <br> color negatives<br> matchbooks<br> oral histories (literary works)<br> correspondence<br> 35mm (photographic film size)<br> tintypes (prints) 	|
-| Controlled Vocabulary 	| Use Getty Art & Architecture Thesaurus          	|
+| Controlled Vocabulary 	| Use [Getty Art & Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/)          	|
 | Required              	| No         |                                                                                       
 | Data Type             	| Text       |      
 
