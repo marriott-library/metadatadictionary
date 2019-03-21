@@ -1,5 +1,8 @@
+#Marriott Library Metadata Dictionary#
 
 General metadata fields present in our digital library. Indivdual collections may have more specialized collection templates with additional fields.
+
+####Note: This is currently a draft, some examples and specifications are still being added.)####
 
 
 
@@ -65,7 +68,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| Yes       	|
 | Data Type             	| Date       |      
 
-| Local Field Name      	| **format**                                                                                                                                                                                                                	|
+| Local Field Name      	| **Format**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:format   
 | Solr field          	| format_t    | 
@@ -103,7 +106,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:ispartof  
 | Solr field            	| is_part_of_t    | 
-| Explanation           	|  Used for faceting and discovery for identified items that are part of a larger collection in Marriott Library Special Collections              	|
+| Explanation           	|  Used for faceting and discovery for identified items that are part of a larger collection in Marriott Library Special Collections, especially the large Multimedia Photo Archive              	|
 | Examples              	| Ski Archive <br> Utah River Running Archives 	|
 | Controlled Vocabulary 	| No               |                                                   	
 | Required              	| No                |                                                                    
@@ -116,7 +119,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Dublin Core Mapping   	| none 
 | Solr field            	| keywords_t    | 
 | Explanation           	|  A useful field for synonyms of the subject headings or other specific phrases not in the LC subject headings. We put significant words that apply to the contents of the resource.             	|
-| Examples              	| **Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
+| Examples              	| **(Photo of a natural sandstone arch in Kane County, Utah)**  Landforms; Sandstone; Natural arches 	|
 | Controlled Vocabulary 	| No           	|
 | Required              	| No              	|
 | Data Type             	| Text       |   
@@ -154,12 +157,12 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| Yes, when applicable                                                                             |
 | Data Type             	| Text       |   
 
-| Local Field Name      	| **Accesss Rights (or Rights Management)**                                                                                                                                                                                                                	|
+| Local Field Name      	| **Accesss Rights or Rights Management**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:rights 
+| Dublin Core Mapping   	| none
 | Solr field            	| access_rights_t    | 
-| Explanation           	| Additional textual rights information about an item           	|
-| Examples              	| 	|
+| Explanation           	| Additional textual rights information about an item. Can contain contact information about contact information for reproduction requests.           	|
+| Examples              	| Copyright 2010. For further information regarding the rights to this collection, please visit: https://NOVEL.utah.edu/about/copyright <br> Image files courtesy National Park Service. Converted to jpg2000 delivery format and made available by the Western Soundscape Archive at Westernsoundscape.org under the Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License; http://creativecommons.org/licenses/by-nc-nd/3.0/us/ <br> 	|
 | Controlled Vocabulary 	| No                                                      
 | Required              	| No       	|
 | Data Type             	| Text       |   
@@ -170,15 +173,15 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Dublin Core Mapping   	| dcterms:spatial 
 | Solr field            	| spatial_coverage_t    | 
 | Explanation           	|  If a resource is focused on an identifiable geographic place, we enter that here. We use a format that includes a hierarchy of broader regions: the location's county when applicable, state, and country. Multiple places may apply to the same resource. [Note: Some legacy collections, such as the Multimedia Archives Photos, still use the Library of Congress format.]              	|
-| Examples              	| Alta, Salt Lake County, Utah, United States<br> Glen Canyon National Recreation Area, Utah, United States<br>**(Multimedia Archives photo from a Glen Canyon river trip)** Colorado River (Colo.-Mexico); Glen Canyon (Utah and Ariz.) 	|
-| Controlled Vocabulary 	| Geonames                                                                                                                                            	|
-| Required              	| Strongly recommended                                                                                                                                                                                                           	|
+| Examples              	| **(Geonames)** Alta, Salt Lake County, Utah, United States<br> Glen Canyon National Recreation Area, Utah, United States<br>**(Multimedia Archives photo from a Glen Canyon river trip, using LCSH)** Colorado River (Colo.-Mexico); Glen Canyon (Utah and Ariz.) 	|
+| Controlled Vocabulary 	| [Geonames](https://www.geonames.org/)                                                                                                                                            	|
+| Required              	| Strongly recommended                        |
 | Data Type             	| Text       |      
 
 
 | Local Field Name      	| **Source**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms_spatial 
+| Dublin Core Mapping   	| dcterms_source 
 | Solr field            	| source_t    | 
 | Explanation           	|  Information to help locate the original item that was the basis of the digital scan, such as a call number or local identifier.      	|
 | Examples              	| **(Original call number for a scanned rare book, Thomas Paine's Common Sense)**  E211 .P124  <br> **(Photo number from the Multimedia Photo Archives)** P0013n10_115_2282 	|
@@ -186,6 +189,16 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Required              	| No                                                                                                                                                                                                          	|
 | Data Type             	| Text       |      
 
+
+| Local Field Name      	| **Type**                                                                                                                                                                                                                	|
+|-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Dublin Core Mapping   	| dcterms_source 
+| Solr field            	| source_t    | 
+| Explanation           	|  Information to help locate the original item that was the basis of the digital scan, such as a call number or local identifier.      	|
+| Examples              	| **(Original call number for a scanned rare book, Thomas Paine's Common Sense)**  E211 .P124  <br> **(Photo number from the Multimedia Photo Archives)** P0013n10_115_2282 	|
+| Controlled Vocabulary 	| No                                                                                                                                           	|
+| Required              	| No                                                                                                                                                                                                          	|
+| Data Type             	| Text       |      
 
 
 
