@@ -2,7 +2,7 @@
 
 General metadata fields present in our [digital library](https://collections.lib.utah.edu/). Indivdual collections may have more specialized collection templates with additional fields.
 
-Note: This is currently a draft, some examples and specifications are still being added.  If you have questions about interpretation, please check in with [Marriott Library Digital Initiatives and Metadata(https://staffdirectory.tools.lib.utah.edu/?deptID=44)
+Note: This is currently a draft, some examples and specifications are still being added.
 
 
 
@@ -192,12 +192,12 @@ Note: This is currently a draft, some examples and specifications are still bein
 
 | Local Field Name      	| **Type**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms_source 
-| Solr field            	| source_t    | 
-| Explanation           	|  Information to help locate the original item that was the basis of the digital scan, such as a call number or local identifier.      	|
-| Examples              	| **(Original call number for a scanned rare book, Thomas Paine's Common Sense)**  E211 .P124  <br> **(Photo number from the Multimedia Photo Archives)** P0013n10_115_2282 	|
-| Controlled Vocabulary 	| No                                                                                                                                           	|
-| Required              	| No                                                                                                                                                                                                          	|
+| Dublin Core Mapping   	| dcterms_type 
+| Solr field            	| type_t    | 
+| Explanation           	|  Assign a value based on the DCMI type vocabulary to describe the resource      	|
+| Examples              	| Text <br> Image <br> Image/MovingImage	|
+| Controlled Vocabulary 	| [DCMI Type Vocabulary](http://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/2010-10-11/)                                                                                                                                           	|
+| Required              	| Yes                                                                                                                                                                                                          	|
 | Data Type             	| Text       |      
 
 
