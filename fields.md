@@ -2,7 +2,7 @@
 
 General metadata fields present in our [digital library](https://collections.lib.utah.edu/). Indivdual collections may have more specialized collection templates with additional fields.
 
-#### Note: This is currently a draft, some examples and specifications are still being added. If you have questions about interpretation, please check in with [Marriott Library Digital Initiatives and Metadata(https://staffdirectory.tools.lib.utah.edu/?deptID=44)
+Note: This is currently a draft, some examples and specifications are still being added.  If you have questions about interpretation, please check in with [Marriott Library Digital Initiatives and Metadata(https://staffdirectory.tools.lib.utah.edu/?deptID=44)
 
 
 
