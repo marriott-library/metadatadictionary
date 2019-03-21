@@ -7,8 +7,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:title
 | Solr field            	| title_t    | 
-| Explanation           	| Some objects, such as scanned text documents, have their own titles we can use, but if not, we think up a simple, descriptive title that conveys what,the work is about. Omit initial articles.                      	|
-| Examples              	| **(Oral history)** Virginia P. Frobes, Salt Lake City, Utah: an interview by Everett L. Cooley.    **(Letter,in a manuscript collection)** Correspondence between Aziz Atiya,and E. A. Lowe regarding an Arabic Sinai manuscript. 	|
+| Explanation           	| Some objects, such as scanned text documents, have their own titles we can use, but if not, we think up a simple, descriptive title that conveys what,the work is about. Omit initial articles. Be succinct where possible, depending on the format of the item. Complex items might require longer titles.                      	|
+| Examples              	| **(Oral history)** Virginia P. Frobes, Salt Lake City, Utah: an interview by Everett L. Cooley.<br />    **(Letter,in a manuscript collection)** Correspondence between Aziz Atiya,and E. A. Lowe regarding an Arabic Sinai manuscript. <br /> **(Photograph)**	Horse drawn wagon on a barren plain. |
 |  Controlled Vocabulary 	| No     |                                                                                            |  Required               | Yes     	|
 |  Data Type             	| Text       |      
 
@@ -18,8 +18,8 @@ General metadata fields present in our digital library. Indivdual collections ma
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:description                                                                         
 | Solr field             	| description_t    |                                                                                                                            	
-| Explanation           	| We can provide more details here that tell a user various information about the resource, from contents to the nature of the original work that was digitized.                      	|
-| Examples              	| **(Oral history)** Transcript (59 pages) of interview by Winnifred Margetts with Wanda Clayton Thomas, retired Communications and Theater professor at the University of Utah, on March 6, 1985. This interview is no. 64 in the Everett L. Cooley Oral History Project, and tape nos. 255 and 256 <br>  **(Letter in a manuscript collection)** Letter dated 8 November 1996 from Alf M. Engen to the Board of Directors of the Alf Engen Ski Museum Foundation, regarding the progress toward choosing a site for the museum and thanking them for the decision to name it in his honor <br>  **(Photograph)** Photo shows Chimney Rock, located north of Utah Highway 24 on the west side Capitol Reef National Park, Utah | 
+| Explanation           	| We can provide more details here that tell a user various information about the resource, from contents to the nature of the original work that was digitized. We attempt to be succinct, with 2-3 sentences used depending on the nature of the item being described.                      	|
+| Examples              	| **(Oral history)** Transcript (59 pages) of interview by Winnifred Margetts with Wanda Clayton Thomas, retired Communications and Theater professor at the University of Utah, on March 6, 1985. This interview is no. 64 in the Everett L. Cooley Oral History Project, and tape nos. 255 and 256. <br>  **(Letter in a manuscript collection)** Letter dated 8 November 1996 from Alf M. Engen to the Board of Directors of the Alf Engen Ski Museum Foundation, regarding the progress toward choosing a site for the museum and thanking them for the decision to name it in his honor. <br>  **(Photograph)** Photo shows Chimney Rock, located north of Utah Highway 24 on the west side Capitol Reef National Park, Utah. | 
 | Controlled Vocabulary 	| No    |                                                                              	
 | Required              	| Yes      	|
 | Data Type             	| Text             |
@@ -30,13 +30,13 @@ General metadata fields present in our digital library. Indivdual collections ma
 | Solr Field               | creator_t                                                                                     |
 | Explanation           	| Who is responsible for the creation of the original work?  If a manuscript document, who wrote it? If a photograph, who took the picture?  If an oral history, who is the subject (the interviewee)?  And so on.  We enter this in the manner traditionally used in cataloging records: last name first, and we check the Library of Congress name authority file, a controlled vocabulary of names of people, and use the form found there, if available.  One difference from MARC cataloging is that multiple authors of a work can be recorded in this field.                      	|
 | Examples              	| **(Author of a letter)** Morgan, John (John Hamilton), 1842-1894 <br> **(Both authors in a set of letters exchanged between two people)** Whitaker, John Mills, 1863-1960; Taylor, Ida Taylor Whitaker, 1887-1980 <br> **(Person interviewed)** Engen, Alan K.<br> **(Photographer)** Kelly, Charles, 1889-1971 </br> **(Producers of a video)**  Juarez, Maricruz; Fuwell, Judy	|
-| Controlled Vocabulary 	| Use LCNAF when appropriate 	|
+| Controlled Vocabulary 	| Use [LCNAF when appropriate.](http://id.loc.gov/authorities/names.html) Can also use the [Western Name Authority File](https://exhibits.lib.utah.edu/s/wnaf/page/welcome) 	|
 | Required              	| Mandatory when applicable    |                                                                     
 | Data Type             	| Text    |
 
 | Local Field Name      	| **Collection Name and Number**                                                                                                                                                                                                               	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Dublin Core Mapping   	| dcterms:source ???? (anna thinks it might be none)     
+| Dublin Core Mapping   	| None     
 |Solr Field               | collection_name_and_number_t      	|
 | Explanation           	| Used for collection name and number to reflect the physical location of a digitized resource. This is especially useful to identify distinct sections of a larger collection, such as individual collections in the Multimedia Photo Archives.                     	|
 | Examples              	| P0100 Charles Kelly Photograph Collection <br> P0413 Alan K. Engen Photograph Collection	|
@@ -59,7 +59,7 @@ General metadata fields present in our digital library. Indivdual collections ma
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| dcterms:date   
 | Solr field          	| date_t    | 
-| Explanation           	| When was the original resource created? Some resources are quite clear, such as a dated letter or a photo with the date stamped on it. (Exact dates take a prescribed format: yyyy-mm-dd.) Others resources require us to make an educated guess, and we enter a range of years to cover the likely time period during which it was created.          	|
+| Explanation           	| When was the original resource created? Some resources are quite clear, such as a dated letter or a photo with the date stamped on it. (Exact dates take a prescribed format: yyyy-mm-dd.) Others resources require us to make an educated guess, and we enter a range of years to cover the likely time period during which it was created. For circa dates, we use a 5 year range.          	|
 | Examples              	| **(When exact date is given e.g., January 31, 1975)** 1975-01-31 <br> **(When an estimated range of years is given e.g., 1960s or 1970s)** 1960; 1961; 1962; 1963; 1964; 1965; 1966; 1967; 1968; 1969; 1970; 1971; 1972; 1973; 1974; 1975; 1976; 1977; 1978; 1979 <br> **(When a single estimated year is given, e.g., circa 1960)** Enter a range of dates on either side of that date. For example: 1957; 1958; 1959; 1960; 1961; 1962; 1963 <br> **(A range of months)** 1940-02; 1940-03; 1940-04 |
 | Controlled Vocabulary 	| W3C Date Time Format profile of ISO 8601    	|
 | Required              	| Yes       	|
