@@ -184,7 +184,7 @@ Note: This is currently a draft, some examples and specifications are still bein
 | Dublin Core Mapping   	| dcterms_source 
 | Solr field            	| source_t    | 
 | Explanation           	|  Information to help locate the original item that was the basis of the digital scan, such as a call number or local identifier.      	|
-| Examples              	| **(Original call number for a scanned rare book, Thomas Paine's Common Sense)**  E211 .P124  <br> **(Photo number from the Multimedia Photo Archives)** P0013n10_115_2282 	|
+| Examples              	| **(Original call number for a scanned rare book, Thomas Paine's Common Sense)**  E211 .P124  <br> **(Photo number from the Multimedia Photo Archives)** P0013n10_115_2282 <br> **(Manuscript call number/Archival collection title from DHA)** MSS C 297 George M. Ottinger Photograph Collection	|
 | Controlled Vocabulary 	| No                                                                                                                                           	|
 | Required              	| No                                                                                                                                                                                                          	|
 | Data Type             	| Text       |      
