@@ -157,7 +157,7 @@ Note: This is currently a draft, some examples and specifications are still bein
 | Required              	| Yes, when applicable                                                                             |
 | Data Type             	| Text       |   
 
-| Local Field Name      	| **Accesss Rights or Rights Management**                                                                                                                                                                                                                	|
+| Local Field Name      	| **Access Rights or Rights Management**                                                                                                                                                                                                                	|
 |-----------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Dublin Core Mapping   	| none
 | Solr field            	| access_rights_t    | 
