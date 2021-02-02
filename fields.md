@@ -2,7 +2,7 @@
 
 General metadata fields present in our [digital library](https://collections.lib.utah.edu/). Indivdual collections may have more specialized collection templates with additional fields.
 
-Note: This is currently a draft, some examples and specifications are still being added.
+
 
 
 
